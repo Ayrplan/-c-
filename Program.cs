@@ -3,15 +3,15 @@
 // 782 -> 8
 // 918 -> 1
 
-// Console.Write("Введите число: ");
-// int n = Convert.ToInt32(Console.ReadLine());
-// if (Math.Abs(n) < 100)
-//     Console.WriteLine("Нет второй цифры: ");
-// else{
-//     while (n > 100)
-//         n = n / 10;
-//     Console.WriteLine(n % 10);
-// }
+Console.Write("Введите число: ");
+int n = Convert.ToInt32(Console.ReadLine());
+if (Math.Abs(n) < 10)
+    Console.WriteLine("Нет второй цифры: ");
+else{
+    while (n > 100)
+        n = n / 10;
+    Console.WriteLine(n % 10);
+}
 
 
 
